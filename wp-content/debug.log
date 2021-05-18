@@ -1,0 +1,69 @@
+[18-May-2021 17:53:18 UTC] PHP Warning:  Use of undefined constant WP_ENV - assumed 'WP_ENV' (this will throw an Error in a future version of PHP) in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\functions.php on line 175
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:53:18 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:53:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php:131
+Stack trace:
+#0 F:\wamp64\www\wpstarterkit\wp-includes\template.php(730): require_once()
+#1 F:\wamp64\www\wpstarterkit\wp-includes\template.php(676): load_template('F:\\wamp64\\www\\w...', true, Array)
+#2 F:\wamp64\www\wpstarterkit\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\front-page.php(3): get_header()
+#4 F:\wamp64\www\wpstarterkit\wp-includes\template-loader.php(106): include('F:\\wamp64\\www\\w...')
+#5 F:\wamp64\www\wpstarterkit\wp-blog-header.php(19): require_once('F:\\wamp64\\www\\w...')
+#6 F:\wamp64\www\wpstarterkit\index.php(17): require('F:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php on line 131
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:54:59 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:54:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php:131
+Stack trace:
+#0 F:\wamp64\www\wpstarterkit\wp-includes\template.php(730): require_once()
+#1 F:\wamp64\www\wpstarterkit\wp-includes\template.php(676): load_template('F:\\wamp64\\www\\w...', true, Array)
+#2 F:\wamp64\www\wpstarterkit\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\front-page.php(3): get_header()
+#4 F:\wamp64\www\wpstarterkit\wp-includes\template-loader.php(106): include('F:\\wamp64\\www\\w...')
+#5 F:\wamp64\www\wpstarterkit\wp-blog-header.php(19): require_once('F:\\wamp64\\www\\w...')
+#6 F:\wamp64\www\wpstarterkit\index.php(17): require('F:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php on line 131
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 156
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'link_before' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'link_after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 166
+[18-May-2021 17:56:41 UTC] PHP Notice:  Trying to get property 'after' of non-object in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\inc\nav-walker.php on line 173
+[18-May-2021 17:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php:131
+Stack trace:
+#0 F:\wamp64\www\wpstarterkit\wp-includes\template.php(730): require_once()
+#1 F:\wamp64\www\wpstarterkit\wp-includes\template.php(676): load_template('F:\\wamp64\\www\\w...', true, Array)
+#2 F:\wamp64\www\wpstarterkit\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\front-page.php(3): get_header()
+#4 F:\wamp64\www\wpstarterkit\wp-includes\template-loader.php(106): include('F:\\wamp64\\www\\w...')
+#5 F:\wamp64\www\wpstarterkit\wp-blog-header.php(19): require_once('F:\\wamp64\\www\\w...')
+#6 F:\wamp64\www\wpstarterkit\index.php(17): require('F:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in F:\wamp64\www\wpstarterkit\wp-content\themes\inxcontracting\header.php on line 131
+[18-May-2021 17:57:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwentyone_the_html_classes() in F:\wamp64\www\wpstarterkit\wp-content\themes\delphin\header.php:15
+Stack trace:
+#0 F:\wamp64\www\wpstarterkit\wp-includes\template.php(730): require_once()
+#1 F:\wamp64\www\wpstarterkit\wp-includes\template.php(676): load_template('F:\\wamp64\\www\\w...', true, Array)
+#2 F:\wamp64\www\wpstarterkit\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 F:\wamp64\www\wpstarterkit\wp-content\themes\delphin\page.php(1): get_header()
+#4 F:\wamp64\www\wpstarterkit\wp-includes\template-loader.php(106): include('F:\\wamp64\\www\\w...')
+#5 F:\wamp64\www\wpstarterkit\wp-blog-header.php(19): require_once('F:\\wamp64\\www\\w...')
+#6 F:\wamp64\www\wpstarterkit\index.php(17): require('F:\\wamp64\\www\\w...')
+#7 {main}
+  thrown in F:\wamp64\www\wpstarterkit\wp-content\themes\delphin\header.php on line 15
